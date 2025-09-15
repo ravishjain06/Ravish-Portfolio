@@ -8,17 +8,17 @@ emailjs.init('4j129vXVe6-chP89x');
 const Contact = () => {
     const data = [
         {
-            icon: "/public/location-pin-alt-1-svgrepo-com.svg",
+            icon: "/location-pin-alt-1-svgrepo-com.svg",
             heading: "Location",
             info: "Ahmedabad, Gujarat",
         },
         {
-            icon: "/public/phone-flip-svgrepo-com.svg",
+            icon: "/phone-flip-svgrepo-com.svg",
             heading: "Contact Number",
             info: "9316572829",
         },
         {
-            icon: "/public/mail-svgrepo-com.svg",
+            icon: "/mail-svgrepo-com.svg",
             heading: "Email",
             info: "ravishjain0601@gmail.com",
         },
