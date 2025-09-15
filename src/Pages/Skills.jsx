@@ -32,9 +32,9 @@ const skills = [
     {
         category: "Other Tools", subcategories: [
             { name: "GitHub", img: "/github.svg" },
-            { name: "Postman", img: "/public/postman-icon-svgrepo-com.svg" },
-            { name: "Vercel", img: "/public/vercel-fill-svgrepo-com.svg" },
-            { name: "Stripe", img: "/public/stripe-svgrepo-com.svg" }
+            { name: "Postman", img: "/postman-icon-svgrepo-com.svg" },
+            { name: "Vercel", img: "/vercel-fill-svgrepo-com.svg" },
+            { name: "Stripe", img: "/stripe-svgrepo-com.svg" }
         ]
     }
 ];
