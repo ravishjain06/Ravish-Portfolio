@@ -100,19 +100,25 @@ const About = () => {
                             <span className="block mt-2 sm:mt-0 md:inline"> and Full-Stack Web Developer Living in Ahmedabad.</span>
                         </h1>
                     </motion.div>
-                    <motion.button
-                        className="mt-6 w-full sm:w-auto px-5 py-3 md:px-7 md:py-4 bg-black text-white text-sm border border-transparent transition-all duration-300 ease-in-out hover:bg-white hover:text-black hover:border-gray-200 text-center md:text-left"
-                        initial="hidden"
-                        whileInView="visible"
-                        viewport={{ once: true, amount: 0.2 }}
-                        transition={{ duration: 0.7, ease: "easeOut", delay: 0.3 }}
-                        variants={{
-                            hidden: { opacity: 0, y: 20 },
-                            visible: { opacity: 1, y: 0 }
-                        }}
+                    <a
+                        href="/Ravish Jain Resume.pdf" // Place your resume file in the public folder with this name
+                        download="Ravish-Jain-Resume.pdf"
+                        className="mt-6 w-full sm:w-auto"
                     >
-                        Hire Me <span className="ml-2">&#128640;</span>
-                    </motion.button>
+                        <motion.button
+                            className="px-5 py-3 md:px-7 md:py-4 bg-black text-white text-sm border border-transparent transition-all duration-300 ease-in-out hover:bg-white hover:text-black hover:border-gray-200 text-center md:text-left w-full"
+                            initial="hidden"
+                            whileInView="visible"
+                            viewport={{ once: true, amount: 0.2 }}
+                            transition={{ duration: 0.7, ease: "easeOut", delay: 0.3 }}
+                            variants={{
+                                hidden: { opacity: 0, y: 20 },
+                                visible: { opacity: 1, y: 0 }
+                            }}
+                        >
+                            Resume
+                        </motion.button>
+                    </a>
                 </div>
             </div>
         </section>
