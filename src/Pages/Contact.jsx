@@ -94,7 +94,7 @@ const Contact = () => {
             <div className="flex flex-col md:flex-row gap-6 md:gap-10 mt-4 sm:mt-6 md:mt-10 w-full">
                 {/* Contact Info Box */}
                 <motion.div
-                    className="w-full md:w-4/12 bg-[#E6EAEE] p-6 sm:p-8 md:p-10 rounded-md"
+                    className="w-full md:w-4/12 bg-[#d9e1ea] p-6 sm:p-8 md:p-10 rounded-md"
                     custom={0}
                     initial="hidden"
                     whileInView="visible"
@@ -104,8 +104,8 @@ const Contact = () => {
                     {data.map((item, index) => (
                         <div key={index} className="mb-6 last:mb-0">
                             <img src={item.icon} alt="" className="h-5 w-5 sm:h-6 sm:w-6 mb-2" />
-                            <p className="text-gray-700 font-semibold text-sm sm:text-base">{item.heading}</p>
-                            <p className="text-gray-600 text-sm sm:text-base">{item.info}</p>
+                            <p className="text-gray-700 font-semibold text-xs sm:text-sm md:text-base lg:text-lg break-words">{item.heading}</p>
+                            <p className="text-gray-600 text-xs sm:text-sm md:text-base lg:text-lg break-words max-w-full">{item.info}</p>
                         </div>
                     ))}
                 </motion.div>
